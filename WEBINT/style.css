@@ -1097,6 +1097,9 @@ div[data-dimension] {
 }
 .single_client>img{
 	margin: 0 auto;
+  border-radius: 100%;
+  height: 50px;
+  width: 50px;
 }
 .clients_slider .slick-prev {
   border-radius: 5px 0 0 5px;
