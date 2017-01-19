@@ -1474,7 +1474,7 @@ textarea .form-control {
   box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
 }
 /*keyframe animations*/
-.first1 {
+.first {
   -webkit-animation: bannermove 15s linear infinite;
      -moz-animation: bannermove 15s linear infinite;
       -ms-animation: bannermove 15s linear infinite;
@@ -1820,44 +1820,7 @@ textarea .form-control {
 =====================///////////////////////*/
 .event_page_head
 {
-  padding-top: 0px;
-}
-.carousel-item > p,h3,h4{
-  color: #e4e4e4;
-}
-
-/* CUSTOMIZE THE CAROUSEL
--------------------------------------------------- */
-
-/* Carousel base class */
-.carousel {
-  background-color: #4f535e;
   padding-top: 120px;
-}
-.carousel-fix{
-  padding-top: 120px;
-}
-/* Since positioning the image, we need to help out the caption */
-.carousel-caption {
-  z-index: 10;
-}
-
-/* Declare heights because of positioning of img element */
-.carousel .item {
-  height: 300px;
-  background-color: #4f535e;
-}
-.carousel-inner > .item > img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  min-width: 100%;
-}
-
-.img_caro{
-    height: 210px;
-    width: 100%;
-    margin-top: 20px;
 }
 
 /*======================///////////////
