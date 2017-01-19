@@ -355,12 +355,12 @@ jQuery(function($){
 	/*  11. Google Map
 	/* ----------------------------------------------------------- */
 
-	  var zoom= $('#map_canvas').gmap('option', 'zoom');
+	  // var zoom= $('#map_canvas').gmap('option', 'zoom');
       
-      $('#map_canvas').gmap().bind('init', function(ev, map) {
-        $('#map_canvas').gmap('addMarker', {'position': '57.7973433,12.0502107', 'bounds': true});
-        $('#map_canvas').gmap('option', 'zoom', 13);
-      });
+   //    $('#map_canvas').gmap().bind('init', function(ev, map) {
+   //      $('#map_canvas').gmap('addMarker', {'position': '57.7973433,12.0502107', 'bounds': true});
+   //      $('#map_canvas').gmap('option', 'zoom', 13);
+   //    });
 
 
 	/* ----------------------------------------------------------- */
@@ -457,5 +457,89 @@ jQuery(function($){
 	  $('.navbar-collapse').collapse('hide');
 	});
 
+
+	
 	
 });
+
+
+/* ----------------------------------------------------------- */
+/*  16. EVENT MAP 
+/* ----------------------------------------------------------- */ 
+
+var route=[];
+function calculateAndDisplayRoute(directionsService, directionsDisplay,map) {
+	var location = [new google.maps.LatLng(43.7030413,7.182723),new google.maps.LatLng(43.6272487,7.0645375)
+		    				,new google.maps.LatLng(43.5822761,7.0697423),new google.maps.LatLng(43.5547467,6.9661137)]
+	var waypts = [];
+    waypts.push({location: location[1],stopover: true});
+    waypts.push({location: location[2],stopover: true});
+    directionsService.route({
+      origin: location[0],
+      destination: location[3],
+      waypoints: waypts,
+      optimizeWaypoints: true,
+      travelMode: 'WALKING'
+    }, function(response, status) {
+          if (status === 'OK') {
+            directionsDisplay.setDirections(response);
+            route = response.routes[0];
+            // For each route, display summary information.
+            var title_lo = ["Starting Point: Nice","The Frist Break: Biot","The Second Break: Antibes","Finish Point: Cannes"];
+		    var markericon = ["./img/map_icon_1.png","./img/map_icon_2.png","./img/map_icon_2.png","./img/map_icon_3.png"]
+		    var geocoder = new google.maps.Geocoder();
+
+		    for (var i = 0; i < route.legs.length; i++) 
+		    {
+			    addcustommaker(map,title_lo[i],"Track from " + route.legs[i].start_address + " to " +
+	            route.legs[i].end_address + "<br/>" + "Distance: " +
+	            route.legs[i].distance.text,location[i],markericon[i]);
+		    }
+
+		    addcustommaker(map,title_lo[3],"Reach the goal",location[3],markericon[3]);
+          } else {
+            window.alert('Directions request failed due to ' + status);
+          }
+        });
+}
+
+function initMap() {
+    var directionsService = new google.maps.DirectionsService;
+    var directionsDisplay = new google.maps.DirectionsRenderer;
+    var map = new google.maps.Map(document.getElementById('map_canvas'), {
+      zoom: 7,
+      center: {lat: 41.85, lng: -87.65}
+    });
+    directionsDisplay.setMap(map);
+    directionsDisplay.setOptions( { suppressMarkers: true } );
+
+    calculateAndDisplayRoute(directionsService, directionsDisplay,map);
+    
+ }
+
+ function addcustommaker(map,VALUE_TITLE,VALUE_CONTENT,location,markerImage)
+ {
+ 	var marker = new google.maps.Marker({
+            position: location,
+            map: map,
+            icon: markerImage
+    });
+
+    var contentString = '<div class="info-window">' +
+            '<h3>' + VALUE_TITLE +'</h3>' +
+            '<div class="info-content">' +
+            '<p>'+ VALUE_CONTENT +'</p>' +
+            '</div>' +
+            '</div>';
+
+    var infowindow = new google.maps.InfoWindow({
+        content: contentString,
+        maxWidth: 400
+    });
+
+    marker.addListener('click', function () {
+        infowindow.open(map, marker);
+    });
+
+ }
+
