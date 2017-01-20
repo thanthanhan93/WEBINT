@@ -321,8 +321,8 @@ jQuery(function($){
 		  dots: false,
 		  infinite: true,
 		  speed: 300,
-		  slidesToShow: 4,
-		  slidesToScroll: 4,
+		  slidesToShow: 6,
+		  slidesToScroll: 6,
 		  responsive: [
 		    {
 		      breakpoint: 1199,
