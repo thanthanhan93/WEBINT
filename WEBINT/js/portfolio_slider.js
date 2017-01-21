@@ -8,60 +8,6 @@ $("#elastic_grid_demo").elastic_grid({
 	'items' :
 		[
 			{
-			'title' : 'IRONMAN NICE FRANCE - Nice, France',
-			'description'   : 'A venue with steep triathlon history: swim in the Mediterranean, bike through the alps, run along the Nices historic waterfront',
-			'thumbnail' : ['img/webint-resource/small/nice_small.jpg', 'img/webint-resource/small/vietnam_small.jpg', 'img/webint-resource/small/vietnam_small.jpg', 'img/webint-resource/small/vietnam_small.jpg', 'img/webint-resource/small/vietnam_small.jpg'],
-			'large' : ['img/webint-resource/large/nice_large.jpg', 'img/webint-resource/large/vietnam_small.jpg', 'img/webint-resource/large/vietnam_small.jpg', 'img/webint-resource/large/vietnam_small.jpg', 'img/webint-resource/large/vietnam_small.jpg'],
-			'button_list'   :
-			[
-			{ 'title':'View Details', 'url' : 'http://#' },
-			{ 'title':'Download', 'url':'http://#'}
-			],
-			'tags'  : ['All']
-			},
-
-			{
-			'title' : 'IRONMAN WORLD CHAMPIONSHIP- KONA, United State of America',
-			'description'   : 'For over three decades the IRONMAN World Championship has brought the worlds best athletes together in competition.',
-			'thumbnail' : ['img/webint-resource/small/kona_small.jpg', 'img/webint-resource/small/vietnam_small.jpg', 'img/webint-resource/small/vietnam_small.jpg', 'img/webint-resource/small/vietnam_small.jpg'],
-			'large' : ['img/webint-resource/large/kona_large.jpg', 'img/webint-resource/large/vietnam_small.jpg', 'img/webint-resource/large/vietnam_small.jpg', 'img/webint-resource/large/vietnam_small.jpg'],
-			'button_list'   :
-			[
-			{ 'title':'Demo', 'url' : 'http://#' },
-			{ 'title':'Download', 'url':'http://#'}
-			],
-			'tags'  : ['All','Joined']
-			},
-
-
-			{
-			'title' : 'IRONMAN Wales- Pembrokeshire, Wales',
-			'description'   : 'A challenging course that takes in views of everything from stunning beaches to Iron Age forts',
-			'thumbnail' : ['img/webint-resource/small/wales_small.jpg', 'img/webint-resource/small/vietnam_small.jpg', 'img/webint-resource/small/vietnam_small.jpg', 'img/webint-resource/small/vietnam_small.jpg', 'img/webint-resource/small/vietnam_small.jpg'],
-			'large' : ['img/webint-resource/large/wales_large.jpg', 'img/webint-resource/large/vietnam_small.jpg', 'img/webint-resource/large/vietnam_small.jpg', 'img/webint-resource/large/vietnam_small.jpg', 'img/webint-resource/large/vietnam_small.jpg'],
-			'button_list'   :
-			[
-			{ 'title':'Demo', 'url' : 'http://#' },
-			{ 'title':'Download', 'url':'http://#'}
-			],
-			'tags'  : ['All','Past']
-			},
-
-
-			{
-			'title' : 'IRONMAN Barcelona - Calella, Spain',
-			'description'   : 'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.',
-			'thumbnail' : ['img/webint-resource/small/barcelona_small.jpg', 'img/webint-resource/small/vietnam_small.jpg', 'img/webint-resource/small/vietnam_small.jpg', 'img/webint-resource/small/vietnam_small.jpg'],
-			'large' : ['img/webint-resource/large/barcelona_large.jpg', 'img/webint-resource/large/vietnam_small.jpg', 'img/webint-resource/large/vietnam_small.jpg', 'img/webint-resource/large/vietnam_small.jpg'],
-			'button_list'   :
-			[
-			{ 'title':'Demo', 'url' : 'http://#' },
-			{ 'title':'Download', 'url':'http://#'}
-			],
-			'tags'  : ['All','Past']
-			},
-
-			{
 			'title' : 'IRONMAN KALMAR - Kalmar, Sweden',
 			'description'   : 'Come, meet the most famous IRONMAN audience in the world! The inaugural IRONMAN event in Scandinavia took place in Kalmar in 2012 and the event has quickly become an athlete favorite. The swim course is in the Baltic Sea, the bike course is over the 6 km long bridge to the island Öland, a popular spot for tourists from around the world, and the run course goes through central parts of Kalmar with the finish line located on the main square.',
 			'thumbnail' : ['img/webint-resource/small/kalmar_small.jpg', 'img/webint-resource/small/vietnam_small.jpg', 'img/webint-resource/small/vietnam_small.jpg', 'img/webint-resource/small/vietnam_small.jpg'],

@@ -60,7 +60,7 @@ jQuery(function($){
       infinite: true,      
       speed: 800,
       arrows:false,      
-      slidesToShow: 1,
+      slidesToShow: 4,
       slide: 'div',
       autoplay: true,
       fade: true,
