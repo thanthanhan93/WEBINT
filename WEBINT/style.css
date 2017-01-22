@@ -1861,6 +1861,97 @@ textarea .form-control {
 }
 
 /*======================///////////////
+      recent activities
+=====================///////////////////////*/
+
+.wthree-right {
+    float: left;
+    width: 100%;
+    background: #fff;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    border-style: groove;
+    border-color: #e4e4e4;
+}
+
+.w3-agileits-top {
+    padding: 10px;
+    background:#2da2c8;
+}
+.w3-agileits-top li span {
+    font-size: 12px;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    display: block;
+}
+.w3-agileits-top h4 {
+    font-size: 20px;
+    color: #fff;
+    text-align: left;
+    font-weight: 0;
+}
+.w3-agileits-top ul li {
+    float: left;
+    width: 33.33%;
+    text-align: center;
+}
+ul.w3ls_weather h4 {
+    font-size: 18px;
+    font-weight: 00;
+    line-height: 15px;
+  color:#146eb4;
+}
+ul.w3ls_weather h5 {
+    font-size: 18px;
+    font-weight: 0;
+  color:#ff9900;
+    line-height: 15px;
+  text-align:right;
+}
+ul.w3ls_weather {
+    padding: 10px;
+    border-bottom: groove #e4e4e4;
+}
+li.lft {
+    float: left;
+}
+li.rt {
+    float: right;
+}
+ul.w3ls_weather span {
+    font-size: 14px;
+    font-weight: 600;
+    color: #777;
+    display: inline-block;
+}
+.clear{clear:both;}/* clear float */
+
+
+.statistic_event h3
+{
+  color: #333;
+  font-weight: 0px;
+  font-size: 24px;
+}
+.stat_word
+{
+  padding: 10px;
+}
+.stat_word h4
+{
+  color: #2da2c8;
+  font-weight: 0px;
+  font-size: 20px;
+  padding-bottom: 15px;
+}
+.stat_word p
+{
+  line-height: 5px;
+}
+
+
+/*======================///////////////
 			start responsive style
 =====================///////////////////////*/
 
