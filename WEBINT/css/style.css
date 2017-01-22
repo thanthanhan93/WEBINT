@@ -387,7 +387,7 @@ img{
   display: inline;
   float: left;
   width: 100%;
-  padding: 80px 0px;
+  padding: 0px 0px;
 }
 .about_area{
 	float: left;
@@ -417,7 +417,7 @@ img{
 	float: left;
 	display: inline;
 	width: 100%;
-	padding: 50px 0px;
+	padding: 0px 0px;
 }
 .about_featured{
 	float: left;
@@ -717,7 +717,7 @@ div[data-dimension] {
 	float: left;
 	display: inline;
 	width: 100%;
-	padding:80px 0px; 
+	padding:0px 0px; 
 }
 .team_area{
 	float: left;
