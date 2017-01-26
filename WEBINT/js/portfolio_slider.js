@@ -14,8 +14,8 @@ $("#elastic_grid_demo").elastic_grid({
 			'large' : ['img/webint-resource/large/kalmar_large.jpg', 'img/webint-resource/large/vietnam_small.jpg', 'img/webint-resource/large/vietnam_small.jpg', 'img/webint-resource/large/vietnam_small.jpg'],
 			'button_list'   :
 			[
-			{ 'title':'Demo', 'url' : 'http://#' },
-			{ 'title':'Download', 'url':'http://#'}
+			{ 'title':'View Details', 'url' : 'http://#' },
+			{ 'title':'Join', 'url':'http://#'}
 			],
 			'tags'  : ['All','Past']
 			},
@@ -27,8 +27,8 @@ $("#elastic_grid_demo").elastic_grid({
 			'large' : ['img/webint-resource/large/austria_large.jpg', 'img/webint-resource/large/vietnam_small.jpg', 'img/webint-resource/large/vietnam_small.jpg', 'img/webint-resource/large/vietnam_small.jpg', 'img/webint-resource/large/vietnam_small.jpg'],
 			'button_list'   :
 			[
-			{ 'title':'Demo', 'url' : 'http://#' },
-			{ 'title':'Download', 'url':'http://#'}
+			{ 'title':'View Details', 'url' : 'http://#' },
+			{ 'title':'Join', 'url':'http://#'}
 			],
 			'tags'  : ['All', 'Past']
 			},
@@ -41,8 +41,8 @@ $("#elastic_grid_demo").elastic_grid({
 			'large' : ['img/webint-resource/large/vichy_large.jpg', 'img/webint-resource/large/vietnam_small.jpg', 'img/webint-resource/large/vietnam_small.jpg', 'img/webint-resource/large/vietnam_small.jpg'],
 			'button_list'   :
 			[
-			{ 'title':'Demo', 'url' : 'http://#' },
-			{ 'title':'Download', 'url':'http://#'}
+			{ 'title':'View Details', 'url' : 'http://#' },
+			{ 'title':'Join', 'url':'http://#'}
 			],
 			'tags'  : ['All' , 'Joined']
 			},
@@ -54,8 +54,8 @@ $("#elastic_grid_demo").elastic_grid({
 			'large' : ['img/webint-resource/large/copenhagen_large.jpg', 'img/webint-resource/large/vietnam_small.jpg', 'img/webint-resource/large/vietnam_small.jpg', 'img/webint-resource/large/vietnam_small.jpg'],
 			'button_list'   :
 			[
-			{ 'title':'Demo', 'url' : 'http://#' },
-			{ 'title':'Download', 'url':'http://#'}
+			{ 'title':'View Details', 'url' : 'http://#' },
+			{ 'title':'Join', 'url':'http://#'}
 			],
 			'tags'  : ['All']
 			},
@@ -67,8 +67,8 @@ $("#elastic_grid_demo").elastic_grid({
 			'large' : ['img/webint-resource/large/vietnam_large.jpg', 'img/webint-resource/large/vietnam_small.jpg', 'img/webint-resource/large/vietnam_small.jpg', 'img/webint-resource/large/vietnam_small.jpg'],
 			'button_list'   :
 			[
-			{ 'title':'Demo', 'url' : 'http://#' },
-			{ 'title':'Download', 'url':'http://#'}
+			{ 'title':'View Details', 'url' : 'http://#' },
+			{ 'title':'Join', 'url':'http://#'}
 			],
 			'tags'  : ['All', 'Past']
 			},
@@ -80,8 +80,8 @@ $("#elastic_grid_demo").elastic_grid({
 			'large' : ['img/webint-resource/large/bintan_large.jpg', 'img/webint-resource/large/vietnam_small.jpg', 'img/webint-resource/large/vietnam_small.jpg', 'img/webint-resource/large/vietnam_small.jpg', 'img/webint-resource/large/vietnam_small.jpg'],
 			'button_list'   :
 			[
-			{ 'title':'Demo', 'url' : 'http://#' },
-			{ 'title':'Download', 'url':'http://#'}
+			{ 'title':'View Details', 'url' : 'http://#' },
+			{ 'title':'Join', 'url':'http://#'}
 			],
 			'tags'  : ['All' , 'Past']
 			},
@@ -93,8 +93,8 @@ $("#elastic_grid_demo").elastic_grid({
 			'large' : ['img/webint-resource/large/colorado_large.jpg', 'img/webint-resource/large/vietnam_small.jpg', 'img/webint-resource/large/vietnam_small.jpg', 'img/webint-resource/large/vietnam_small.jpg'],
 			'button_list'   :
 			[
-			{ 'title':'Demo', 'url' : 'http://#' },
-			{ 'title':'Download', 'url':'http://#'}
+			{ 'title':'View Details', 'url' : 'http://#' },
+			{ 'title':'Join', 'url':'http://#'}
 			],
 			'tags'  : ['All']
 			},
@@ -121,7 +121,7 @@ $("#elastic_grid_demo1").elastic_grid({
 			'button_list'   :
 			[
 			{ 'title':'View Details', 'url' : 'http://#' },
-			{ 'title':'Download', 'url':'http://#'}
+			{ 'title':'Join', 'url':'http://#'}
 			],
 			'tags'  : ['All']
 			},
@@ -133,8 +133,8 @@ $("#elastic_grid_demo1").elastic_grid({
 			'large' : ['img/webint-resource/large/kona_large.jpg', 'img/webint-resource/large/vietnam_small.jpg', 'img/webint-resource/large/vietnam_small.jpg', 'img/webint-resource/large/vietnam_small.jpg'],
 			'button_list'   :
 			[
-			{ 'title':'Demo', 'url' : 'http://#' },
-			{ 'title':'Download', 'url':'http://#'}
+			{ 'title':'View Details', 'url' : 'http://#' },
+			{ 'title':'Join', 'url':'http://#'}
 			],
 			'tags'  : ['All','Joined']
 			},
@@ -147,8 +147,8 @@ $("#elastic_grid_demo1").elastic_grid({
 			'large' : ['img/webint-resource/large/wales_large.jpg', 'img/webint-resource/large/vietnam_small.jpg', 'img/webint-resource/large/vietnam_small.jpg', 'img/webint-resource/large/vietnam_small.jpg', 'img/webint-resource/large/vietnam_small.jpg'],
 			'button_list'   :
 			[
-			{ 'title':'Demo', 'url' : 'http://#' },
-			{ 'title':'Download', 'url':'http://#'}
+			{ 'title':'View Details', 'url' : 'http://#' },
+			{ 'title':'Join', 'url':'http://#'}
 			],
 			'tags'  : ['All','Past']
 			},
@@ -162,7 +162,7 @@ $("#elastic_grid_demo1").elastic_grid({
 			'button_list'   :
 			[
 			{ 'title':'Demo', 'url' : 'http://#' },
-			{ 'title':'Download', 'url':'http://#'}
+			{ 'title':'Join', 'url':'http://#'}
 			],
 			'tags'  : ['All','Past']
 			},
@@ -188,7 +188,7 @@ $("#elastic_grid_demo2").elastic_grid({
 			'button_list'   :
 			[
 			{ 'title':'View Details', 'url' : 'http://#' },
-			{ 'title':'Download', 'url':'http://#'}
+			{ 'title':'Join', 'url':'http://#'}
 			],
 			'tags'  : ['All']
 			},
@@ -200,8 +200,8 @@ $("#elastic_grid_demo2").elastic_grid({
 			'large' : ['img/webint-resource/large/kona_large.jpg', 'img/webint-resource/large/vietnam_small.jpg', 'img/webint-resource/large/vietnam_small.jpg', 'img/webint-resource/large/vietnam_small.jpg'],
 			'button_list'   :
 			[
-			{ 'title':'Demo', 'url' : 'http://#' },
-			{ 'title':'Download', 'url':'http://#'}
+			{ 'title':'View Details', 'url' : 'http://#' },
+			{ 'title':'Join', 'url':'http://#'}
 			],
 			'tags'  : ['All','Joined']
 			},
@@ -214,8 +214,8 @@ $("#elastic_grid_demo2").elastic_grid({
 			'large' : ['img/webint-resource/large/wales_large.jpg', 'img/webint-resource/large/vietnam_small.jpg', 'img/webint-resource/large/vietnam_small.jpg', 'img/webint-resource/large/vietnam_small.jpg', 'img/webint-resource/large/vietnam_small.jpg'],
 			'button_list'   :
 			[
-			{ 'title':'Demo', 'url' : 'http://#' },
-			{ 'title':'Download', 'url':'http://#'}
+			{ 'title':'View Details', 'url' : 'http://#' },
+			{ 'title':'Join', 'url':'http://#'}
 			],
 			'tags'  : ['All','Past']
 			},
@@ -228,8 +228,8 @@ $("#elastic_grid_demo2").elastic_grid({
 			'large' : ['img/webint-resource/large/barcelona_large.jpg', 'img/webint-resource/large/vietnam_small.jpg', 'img/webint-resource/large/vietnam_small.jpg', 'img/webint-resource/large/vietnam_small.jpg'],
 			'button_list'   :
 			[
-			{ 'title':'Demo', 'url' : 'http://#' },
-			{ 'title':'Download', 'url':'http://#'}
+			{ 'title':'View Details', 'url' : 'http://#' },
+			{ 'title':'Join', 'url':'http://#'}
 			],
 			'tags'  : ['All','Past']
 			},
@@ -241,8 +241,8 @@ $("#elastic_grid_demo2").elastic_grid({
 			'large' : ['img/webint-resource/large/kalmar_large.jpg', 'img/webint-resource/large/vietnam_small.jpg', 'img/webint-resource/large/vietnam_small.jpg', 'img/webint-resource/large/vietnam_small.jpg'],
 			'button_list'   :
 			[
-			{ 'title':'Demo', 'url' : 'http://#' },
-			{ 'title':'Download', 'url':'http://#'}
+			{ 'title':'View Details', 'url' : 'http://#' },
+			{ 'title':'Join', 'url':'http://#'}
 			],
 			'tags'  : ['All','Past']
 			},
@@ -254,8 +254,8 @@ $("#elastic_grid_demo2").elastic_grid({
 			'large' : ['img/webint-resource/large/austria_large.jpg', 'img/webint-resource/large/vietnam_small.jpg', 'img/webint-resource/large/vietnam_small.jpg', 'img/webint-resource/large/vietnam_small.jpg', 'img/webint-resource/large/vietnam_small.jpg'],
 			'button_list'   :
 			[
-			{ 'title':'Demo', 'url' : 'http://#' },
-			{ 'title':'Download', 'url':'http://#'}
+			{ 'title':'View Details', 'url' : 'http://#' },
+			{ 'title':'Join', 'url':'http://#'}
 			],
 			'tags'  : ['All', 'Past']
 			},
@@ -268,8 +268,8 @@ $("#elastic_grid_demo2").elastic_grid({
 			'large' : ['img/webint-resource/large/vichy_large.jpg', 'img/webint-resource/large/vietnam_small.jpg', 'img/webint-resource/large/vietnam_small.jpg', 'img/webint-resource/large/vietnam_small.jpg'],
 			'button_list'   :
 			[
-			{ 'title':'Demo', 'url' : 'http://#' },
-			{ 'title':'Download', 'url':'http://#'}
+			{ 'title':'View Details', 'url' : 'http://#' },
+			{ 'title':'Join', 'url':'http://#'}
 			],
 			'tags'  : ['All' , 'Joined']
 			},
@@ -281,8 +281,8 @@ $("#elastic_grid_demo2").elastic_grid({
 			'large' : ['img/webint-resource/large/copenhagen_large.jpg', 'img/webint-resource/large/vietnam_small.jpg', 'img/webint-resource/large/vietnam_small.jpg', 'img/webint-resource/large/vietnam_small.jpg'],
 			'button_list'   :
 			[
-			{ 'title':'Demo', 'url' : 'http://#' },
-			{ 'title':'Download', 'url':'http://#'}
+			{ 'title':'View Details', 'url' : 'http://#' },
+			{ 'title':'Join', 'url':'http://#'}
 			],
 			'tags'  : ['All']
 			},
